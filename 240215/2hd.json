@@ -14,11 +14,13 @@
 	  "weight":98
     },
 	{
-      "key": "JianPian",
-      "name": "荐片1",
+      "key": "荐片",
+      "name": "荐片",
+      "api": "csp_Jianpian",
       "type": 3,
-      "api": "csp_JianPian",
-	  "jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac",
+      "playerType": "2",
+	  "jar":"http://like.xn--z7x900a.live:66/jar/PandaQ240208.jar;md5;888A64F65AAB54892980DED5C6DA9A6E",
+      "ext": "http://api2.rinhome.com",   	  
 	  "weight":97
     },
     {
@@ -46,8 +48,8 @@
       "type": 3,
       "api": "csp_qiao2",
       "playerType": 2,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2",
 	  "jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac",
+      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2",
 	  "weight":96
     },
     {
@@ -56,8 +58,9 @@
       "type": 3,
       "api": "csp_qiao2",
       "playerType": 2,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3",
 	  "jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac",
+      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji3",
+	  
 	  "weight":96
     },
     {
@@ -66,8 +69,9 @@
       "type": 3,
       "api": "csp_qiao2",
       "playerType": 2,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji4",
 	  "jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac",
+      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji4",
+	  
 	  "weight":96
     },
     {
@@ -79,8 +83,9 @@
       "quickSearch": 1,
       "playerType": 2,
       "filterable": 1,
-      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5",
 	  "jar":"http://cdn.qiaoji8.com/fix24117.jar;md5;2e85feb2888d9efb5b396258f22841ac",
+      "ext": "https://jihulab.com/qiaoji/open/-/raw/main/qiaoji5",
+	  
 	  "weight":96
     },
     {
