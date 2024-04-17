@@ -195,19 +195,32 @@
             "quickSearch": 1,
             "filterable": 1
         },
-        		{
-					"key": "熊掌",
-					"name": "熊掌",
-					"type": 1,
-					"api": "https://xzcjz.com/api.php/provide/vod",
-					"jar":"https://fastly.jsdelivr.net/gh/fczlms/heimao/240302/fan.txt;md5;87C10CB2CDA0A4CCA965373EC8D02C7B",
-					"weight":89
+		{
+			"key": "熊掌",
+			"name": "熊掌",
+			"type": 1,
+			"api": "https://xzcjz.com/api.php/provide/vod",
+			"jar":"http://up.heimao.nl/240302/fan.jar;md5;87C10CB2CDA0A4CCA965373EC8D02C7B",
+			"weight":89
+		},
+		{
+		    "key":"jszy",
+		    "name":"极速资源",
+		    "type":1,
+		    "style":{"type":"rect","ratio":1.485},
+		    "api":"https://jszyapi.com/api.php/provide/vod/from/jsm3u8",
+		    "searchable":1,
+		    "changeable":1,
+		    "quickSearch":1,
+		    "weight":90,
+		    "filterable":1
+		    
 		},
 		{"key": "卧龙资源",
             "name": "卧龙",
             "type": 1,
             "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
-			"jar":"https://fastly.jsdelivr.net/gh/fczlms/heimao/240302/fan.txt;md5;87C10CB2CDA0A4CCA965373EC8D02C7B",
+			"jar":"http://up.heimao.nl/240302/fan.jar;md5;87C10CB2CDA0A4CCA965373EC8D02C7B",
 			"weight":89,
             "searchable": 1,
             "quickSearch": 1,
@@ -224,7 +237,7 @@
 			"name": "暴风",
 			"type": 1,
 			"api": "https://app.bfzyapi.com/api.php/provide/vod/",
-			"jar":"https://fastly.jsdelivr.net/gh/fczlms/heimao/240302/fan.txt;md5;87C10CB2CDA0A4CCA965373EC8D02C7B",
+			"jar":"http://up.heimao.nl/240302/fan.jar;md5;87C10CB2CDA0A4CCA965373EC8D02C7B",
 			"weight":89,
 			"searchable": 1,
 			"filterable": 1,
@@ -237,7 +250,7 @@
 			"name": "量子",
 			"type": 1,
 			"api": "https://cj.lziapi.com/api.php/provide/vod/",
-			"jar":"https://fastly.jsdelivr.net/gh/fczlms/heimao/240302/fan.txt;md5;87C10CB2CDA0A4CCA965373EC8D02C7B",
+			"jar":"http://up.heimao.nl/240302/fan.jar;md5;87C10CB2CDA0A4CCA965373EC8D02C7B",
 			"weight":89,
 			"searchable": 1,
 			"quickSearch": 1,
@@ -307,6 +320,20 @@
                 "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
             ]
         },
+        {
+		    "name":"极速广告",
+			"hosts":["jszy"],
+			"regex":[
+			     "#EXT-X-DISCONTINUITY\\r*\\n*[\\s\\S]*?#EXT-X-DISCONTINUITY"
+				 ]
+		},
+		{
+		    "name":"极速广告备份",
+			"hosts":["jszy"],
+			"regex":[
+			     "#EXTINF.*?\\s+.*?muguacdn*?\\.ts\\s+","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+				 ]
+		},
         {
             "name": "xx",
             "hosts": [
